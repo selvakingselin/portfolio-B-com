@@ -541,8 +541,17 @@ footer {
 }
 
 /* media query*/
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     body{
-        background-color: red;
+        width: 1200px;
     }
-} */
+    .navigation{
+        font-size: 15px;
+    }
+    .home .image img{
+        border-radius: 48%;
+        border: 2px solid blueviolet;
+        outline: 2px solid black;
+        background-color: transparent;
+    }
+}
